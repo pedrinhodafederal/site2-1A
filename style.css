@@ -1,0 +1,15 @@
+header  {
+    background:#c7afaf;/*cor de fundo*/
+    padding: 20px 0;/*espaço em torno de um elemento*/
+}
+
+.caixa {
+    position:relative;/*posicionar elementos na pagina*/
+    width:940px;/*largura do elemento*/
+    margin: 0 auto;/*centralizar conteudo margem automatica*/
+}
+
+main {
+    background: #f0dede;
+}
+
