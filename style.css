@@ -13,3 +13,10 @@ main {
     background: #f0dede;
 }
 
+nav {
+    position:absolute;/*posicionar elementos na página*/
+    top: 110px;/*posicao do elemento em relaçao a parte superior da página*/
+    right: 0;/*direita*/
+
+}
+
