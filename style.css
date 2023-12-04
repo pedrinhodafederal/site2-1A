@@ -20,3 +20,47 @@ nav {
 
 }
 
+nav li {
+    display: inline;/*elementos que se mantêm em linha*/
+    margin: 0 0 0 15px;/*tamanho de todas as 4 margens*/
+}
+
+
+nav a {
+    text-transform: uppercase;/*texto em maisuculo*/
+    color: #000000;/*cor do texto*/
+    font-weight: bold;/*fonte negrito*/
+    font-size: 22px;/*tamanho da fonte*/
+    text-decoration: none;/*retirar decoração padrão o sublinhado*/
+}
+
+/*passando o mouse sobre o elemento(pseudo-classes)*/
+nav a:hover {
+    color: #a108bc; /*colocando a cor*/
+    text-decoration: underline; /*texto sublinhado quandoo mouse estiver posicionado*/
+}
+
+.produtos {
+    width: 940px;/*largura*/
+    margin: 0 auto;/*espaçamento externo*/
+    padding: 50px 0;/*espaçamento interno*/
+}
+
+
+.produtos li {
+    display: inline-block; /*vão se manter posicionados um ao lado do outro, sem quebras de linhas*/
+    text-align: center; /*texto centralizado*/
+    width: 30%; /*largura*/
+    vertical-align: top; /*alinhamento vertical do elemento, parte superios*/
+    margin: 0 1.5%; /*espaçamento externo*/
+    padding: 30px 20px; /*espaçamento interno*/
+    box-sizing: border-box; /**/
+    /*desenvolvimento da borda, as 3 linhas abaixo podemos substituir por uma,]
+    linha 56.
+    border-color: #000000 ; cor da borda
+    border-width: 2px ;   tamanho da borda,largura
+    border-style: solid;  borda sólida*/
+    border: 2 px solid #000000;/*largura estilo e cor de todas as 4 bordas*/
+    border-radius: 10px;/*bordas aredondads*/
+}
+
